@@ -6,14 +6,14 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./img/avatar.png")
     img.setAttribute(
-      "alt","foto do rodrigo, usando oculos, camiseta preta e barba"
+      "alt","foto do rodrigo, usando oculos, camiseta preta e barba em fundo azul"
     
     )
   } else {
     img.setAttribute("src", "./img/Avatar2.png")
     img.setAttribute(
       "alt",
-      "foto do rodrigo, usando oculos, blusa cinza e barba"
+      "foto do rodrigo, usando oculos, blusa preta e barba em fundo verde"
     )
   }
 }
