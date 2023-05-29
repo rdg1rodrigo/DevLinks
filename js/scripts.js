@@ -10,7 +10,7 @@ function toggleMode() {
     
     )
   } else {
-    img.setAttribute("src", "./img/Avataur.png")
+    img.setAttribute("src", "./img/Avatar2.png")
     img.setAttribute(
       "alt",
       "foto do rodrigo, usando oculos, blusa cinza e barba"
