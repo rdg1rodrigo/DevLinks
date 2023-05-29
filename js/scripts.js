@@ -4,7 +4,7 @@ function toggleMode() {
 
   const img = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./img/Avatar.png")
+    img.setAttribute("src", "./img/avatar.png")
     img.setAttribute(
       "alt","foto do rodrigo, usando oculos, camiseta preta e barba"
     
