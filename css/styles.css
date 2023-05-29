@@ -22,6 +22,7 @@
   --switch-bg-url: url(../img/Sun.svg);
 }
 body {
+  height: 100vh;
   background-image: var(--bg-url);
   background-repeat: no-repeat;
   background-position: top center;
@@ -80,7 +81,7 @@ body * {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
-.light #switch button{
+.light #switch button {
   right: 0;
   left: initial;
 }
@@ -131,4 +132,12 @@ footer {
   font-size: 14px;
   padding: 24px 0px;
   text-align: center;
+}
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(../img/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(../img/bg-desktop-light.jpg);
+  }
 }
